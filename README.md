@@ -43,7 +43,7 @@ A full-stack **Bookstore Management System** built to manage books, users, order
 * Express.js
 * MongoDB (Database)
 * Mongoose
-* JWT (Authentication)
+* Session (Authentication)
 
 ```
 
