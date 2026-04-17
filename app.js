@@ -19,8 +19,7 @@ app.set("trust proxy", 1);
 // CORS
 app.use(cors({
   origin:[
-    "http://localhost:5173",
-    "https://bookstore-managemet-system.vercel.app"
+    "http://localhost:5173"
   ],
   credentials: true
 }));
