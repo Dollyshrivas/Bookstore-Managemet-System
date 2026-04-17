@@ -2,8 +2,7 @@ import React, { useEffect } from "react";
 import { Routes, Route } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
 import axios from "axios";
-
-import Navbar from "./components/Navbar.jsx/Navbar";
+import Navbar from "./components/Navbar/Navbar"
 import Footer from "./components/Footer/Footer";
 import Home from "./pages/Home";
 import Bestsellers from "./pages/Bestsellers";
