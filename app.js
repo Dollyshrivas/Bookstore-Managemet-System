@@ -21,7 +21,7 @@ app.use(
   cors({
     origin: [
       "http://localhost:5174",
-      "https://bookstore-managemet-system.vercel.app/"
+      "https://bookstore-managemet-system.vercel.app"
     ],
     credentials: true,
     methods: ["GET", "POST", "PUT", "DELETE"],
